@@ -1,9 +1,13 @@
+import greetings from './data.js'
+import funFacts from './data.js'
+
+
 class Morning {
     constructor(name) {
         this._name = name;
-        this._hello = [];
-        this._fun_fact = [];
-        this._goodbye = [];
+        this._greeting = greetings;
+        this._funFact = funFacts;
+        this._fancyAdj = [];
     }
 
     get name() {
