@@ -1,6 +1,6 @@
 # Mixed_Messages
 
-## Description
+## Description 
 This project is built using the outline of CodeCademy's Mixed Messages project.  When run, the program generates a message which contains three random pieces.  First, a language is selected.  The message says 'Hello' and 'Goodbye' in the given language.  Next, the message provides a fun fact at random.  Last, the program selects a random adjective to fill in "Have a (blank) day".
 
 ## Features
