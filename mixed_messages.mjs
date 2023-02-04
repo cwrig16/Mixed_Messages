@@ -1,17 +1,10 @@
-import { greetings } from './data.mjs';
-import { funFacts } from './data.mjs';
-import { fancyAdjectives } from './data.mjs';
+import { greetings, funFacts, fancyAdjectives } from './data.mjs';
 
 class randomMessage {
-    constructor(name) {
-        this._name = name;
+    constructor() {
         this._greeting = greetings;
         this._funFact = funFacts;
         this._fancyAdj = fancyAdjectives;
-    }
-
-    get name() {
-        return this._name;
     }
 
     getRandProp(greetings) {
@@ -31,6 +24,6 @@ class randomMessage {
     }
 }
 
-const mess1 = new randomMessage('Jam');
+const mess1 = new randomMessage();
 
 mess1.message();
