@@ -27,3 +27,6 @@ class randomMessage {
 const mess1 = new randomMessage();
 
 mess1.message();
+
+const mess2 = new randomMessage();
+mess2.message();
