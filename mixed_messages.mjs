@@ -27,11 +27,7 @@ class randomMessage {
         let fact = this._funFact[Math.floor(Math.random() * this._funFact.length)];
         let adjective = this._fancyAdj[Math.floor(Math.random() * this._fancyAdj.length)];
 
-        console.log(`${randHello}!!! Your greetings today will be in ${randLanguage}.\n 
-            Fun Fact Time...\n
-            ${fact}\n
-            Have a ${adjective} day!!!\n
-            ${randGoodbye}.`);
+        console.log(`${randHello}!!! Your greetings today will be in ${randLanguage}.\nFun Fact Time...\n${fact}\nHave a ${adjective} day!!!\n${randGoodbye}.`);
     }
 }
 
