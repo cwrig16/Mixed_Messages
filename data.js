@@ -55,3 +55,26 @@ export const funFacts = [
     'Most people fall asleep in seven minutes.',
     '"Stewardesses" is the longest word that is typed with only the left hand.'
 ]
+
+export const fancyAdjectives = [
+    'tremendous', 
+    'horrendous', 
+    'stupendous', 
+    'hazardous', 
+    'productive', 
+    'bright',
+    'electrifying',
+    'lovely',
+    'awesome',
+    'super',
+    'best',
+    'splendid',
+    'exciting',
+    'comfortable',
+    'glorious',
+    'excellent',
+    'eventful',
+    'magnificent',
+    'extraordinary',
+    'pleasant'
+]
