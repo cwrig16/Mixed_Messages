@@ -1,5 +1,5 @@
 export const greetings = {
-    'English': ['Good Morning', 'Goodbye'],
+    'English': ['Hello', 'Goodbye'],
     'Spanish': ['Hola', 'Adios'],
     'French' : ['Bonjour', 'Au revoir'],
     'Italian' : ['Ciao', 'Ciao'],
@@ -65,16 +65,12 @@ export const fancyAdjectives = [
     'bright',
     'electrifying',
     'lovely',
-    'awesome',
     'super',
     'best',
     'splendid',
     'exciting',
     'comfortable',
     'glorious',
-    'excellent',
-    'eventful',
     'magnificent',
-    'extraordinary',
     'pleasant'
 ]
